@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { CadastroUsuarioComponent } from './cadastro-usuario/cadastro-usuario.component';
-import { LoginUsuarioComponent } from './login-usuario/login-usuario.component';
-import { CadastroContaComponent } from './cadastro-conta/cadastro-conta.component';
+import { CadastroUsuarioComponent } from '../cadastro-usuario/cadastro-usuario.component';
+import { TelaUsuarioComponent } from '../tela-usuario/tela-usuario.component';
 
 const routes: Routes = [
   { path: 'cadastro', component: CadastroUsuarioComponent },
-  { path: 'login', component: LoginUsuarioComponent },
-  { path: 'cadastro-conta', component: CadastroContaComponent }
+  { path: 'tela', component: TelaUsuarioComponent },
+
 ];
 
 @NgModule({
