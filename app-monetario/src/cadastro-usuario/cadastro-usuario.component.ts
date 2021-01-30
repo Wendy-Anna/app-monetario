@@ -12,4 +12,5 @@ export class CadastroUsuarioComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
 }
